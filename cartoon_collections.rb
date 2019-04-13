@@ -25,6 +25,7 @@ def find_the_cheese(str_array)
       cheese
     else
       NIL
+    end
   end
   
 end
