@@ -22,9 +22,9 @@ def find_the_cheese(str_array)
   
   cheese_types.each do |cheese|
     if str_array.include?(cheese)
-       cheese
+      return cheese
     else
-     nil
+      return nil
     end
   end
   
